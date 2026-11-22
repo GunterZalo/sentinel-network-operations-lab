@@ -1,0 +1,31 @@
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+secrets/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Python
+__pycache__/
+.venv/
+
+# Large VM and disk images
+*.qcow2
+*.vmdk
+*.vdi
+*.iso
+
+# System files
+.DS_Store
+Thumbs.db
